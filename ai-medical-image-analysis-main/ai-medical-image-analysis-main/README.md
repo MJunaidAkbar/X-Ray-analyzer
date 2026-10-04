@@ -1,4 +1,4 @@
-# 🩺 AI-POWERED MEDICAL IMAGE ANALYSIS SYSTEM
+## AI-POWERED MEDICAL IMAGE ANALYSIS SYSTEM
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat-square)]  
 [![DeepLearning](https://img.shields.io/badge/DeepLearning-MobileNetV2-orange?style=flat-square)]  
@@ -6,19 +6,19 @@
 
 ---
 
-## ⚡ SYSTEM OVERVIEW
+##  SYSTEM OVERVIEW
 
 This project is an AI-powered medical image analysis system built using deep learning. It analyzes chest X-ray images and classifies them into two categories: **NORMAL** and **PNEUMONIA**. The system simulates real-world diagnostic assistance used in hospitals and radiology centers.
 
 ---
 
-## 🔥 PROBLEM STATEMENT
+##  PROBLEM STATEMENT
 
 Manual diagnosis of medical images is time-consuming and prone to human error. Radiologists often deal with large volumes of scans, which can lead to delayed or incorrect diagnosis. This project aims to automate disease detection using AI to assist healthcare professionals.
 
 ---
 
-## 🏥 INDUSTRY RELEVANCE
+##  INDUSTRY RELEVANCE
 
 AI-based medical imaging systems are widely used by healthcare companies like Google Health, IBM Watson Health, and Siemens Healthineers.
 
@@ -30,27 +30,13 @@ These systems:
 
 ---
 
-## 🏗️ SYSTEM ARCHITECTURE
+## SYSTEM ARCHITECTURE
 
 Chest X-ray Dataset → Image Loading → Preprocessing (Resize, Normalize, Augmentation) → Feature Extraction (MobileNetV2) → Model Training → Prediction Engine → Evaluation Metrics → Confusion Matrix → Visualization Output
 
 ---
 
-## ⚙️ INSTALLATION & SETUP
-
-git clone https://github.com/maheshbhakre/ai-medical-image-analysis.git  
-cd ai-medical-image-analysis  
-
-python -m venv venv  
-
-venv\Scripts\activate   (Windows)  
-source venv/bin/activate   (Linux/Mac)  
-
-pip install -r requirements.txt  
-
----
-
-## 💻 USAGE
+##  USAGE
 
 python src/train.py  
 python src/predict.py  
@@ -58,13 +44,13 @@ python src/evaluate.py
 
 ---
 
-## ⚙️ TECH STACK
+##  TECH STACK
 
 Python, TensorFlow/Keras, OpenCV, NumPy, Matplotlib, Seaborn, MobileNetV2 (Transfer Learning)
 
 ---
 
-## 📊 DATASET
+##  DATASET
 
 Chest X-Ray Pneumonia Dataset  
 
@@ -76,7 +62,7 @@ The dataset simulates real-world radiology data used for disease detection.
 
 ---
 
-## 📈 RESULTS
+##  RESULTS
 
 Accuracy: ~89%  
 
@@ -94,7 +80,7 @@ Accuracy: ~89%
 
 ---
 
-## 📁 PROJECT STRUCTURE
+##  PROJECT STRUCTURE
 
 AI-MEDICAL-IMAGE-ANALYSIS/  
 ├── data/  
@@ -132,7 +118,7 @@ AI-MEDICAL-IMAGE-ANALYSIS/
 
 ---
 
-## 📸 OUTPUT SCREENSHOTS
+##  OUTPUT SCREENSHOTS
 
 <p align="center">
 <img src="images/sample_xray.png" width="650"/>
@@ -152,13 +138,7 @@ AI-MEDICAL-IMAGE-ANALYSIS/
 
 ---
 
-## 🚀 WHAT I LEARNED
-
-End-to-end deep learning pipeline, medical image preprocessing, transfer learning using MobileNetV2, model training, evaluation using confusion matrix and classification report, and building a real-world healthcare AI simulation.
-
----
-
-## ⚠️ LIMITATIONS
+##  LIMITATIONS
 
 - Dataset is limited and simulated (not real hospital data)  
 - Model may produce false positives  
@@ -166,32 +146,6 @@ End-to-end deep learning pipeline, medical image preprocessing, transfer learnin
 
 ---
 
-## 👨‍💻 AUTHOR
+##  NOTE
 
-Mahesh Bhakre  
-
----
-
-## 🌐 CONNECT WITH ME
-
-<a href="https://github.com/maheshbhakre">
-<img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
-</a>
-
-<a href="https://www.linkedin.com/in/maheshbhakreds1242">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
-</a>
-
-<a href="https://www.instagram.com/mahesh_bhakre__2k06">
-<img src="https://img.shields.io/badge/Instagram-Follow-purple?style=for-the-badge&logo=instagram">
-</a>
-
-<a href="https://saimfsd.github.io/mahesh-portfolio/">
-<img src="https://img.shields.io/badge/Portfolio-Visit%20Website-orange?style=for-the-badge&logo=google-chrome">
-</a>
-
----
-
-## ⭐ NOTE
-
-This project demonstrates a complete AI-powered medical image analysis system with real training, prediction, evaluation, and visualization. It simulates how AI assists doctors in disease detection and decision-making.c
+This project demonstrates a complete AI-powered medical image analysis system with real training, prediction, evaluation, and visualization. It simulates how AI assists doctors in disease detection and decision-making.
